@@ -1,0 +1,90 @@
+body{
+    background: #76b852;
+    background: -webkit-linear-gradient(right, #76b852, #8dc26f);
+    background: -moz-linear-gradient(right, #76b852, #8dc26f);
+    background: -o-linear-gradient(right, #76b852, #8dc26f);
+    background: linear-gradient(to left, #76b852, #8dc26f);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.login-pg{
+    width: 500px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form .login-form{
+    text-align: center;
+}
+.login-pg .form input{
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login-pg .form button{
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.login-pg .form button:hover, 
+.login-pg .form button:active, 
+.login-pg .form button:focus {
+    background: #43A047;
+}
+.login-pg .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.login-pg .form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.login-pg .form .message a:hover{
+    color: #43A047;
+    text-decoration: none;
+}
+.login-pg .form .log-sign-go-back a{
+    color: rgb(76, 175, 80, 0.7);
+    transition: 0.3s;
+   
+}
+.login-pg .form .log-sign-go-back a:hover{
+    color: #43A047;
+   
+   
+}
+.login-pg .form .register-form .names{
+    display: inline-flex;
+}
+.login-pg .form .register-form .names .firstname{
+    margin-right: 3px;
+    margin-bottom: 15px;    
+}
+.login-pg .form .register-form .names .lastname{
+    margin-left: 3px;
+    margin-bottom: 15px;    
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: #e9ebee;
+}
+.jumbotron.yelp {
+    background-color: #e9ebee;
+}
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail {
+    padding: 0;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+p.submitter {
+    font-size: 0.85em;
+}
+.deletebtn{
+    display: inline;
+}
+.nature{
+    font-size: 0.7em;
+}
+.addloc{
+    font-size: 1.2em;
+}
+
+#card_cropped {
+    width: 358px; /* width of container */
+    height: 370px; /* height of container */
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#show_cropped {
+    width: 845px; /* width of container */
+    height: 650px; /* height of container */
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#show_cropped img {
+    margin: -10px 0px 0px -180px;
+}

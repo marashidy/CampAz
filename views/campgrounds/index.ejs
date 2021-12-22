@@ -1,0 +1,35 @@
+<%- include("../partials/header") %>
+
+
+<div class="container">
+    <div class="jumbotron yelp">
+        <h1>
+            <i class="nature material-icons">emoji_nature </i>
+            Welcome to the CampAz!</h1>
+        <p>Find your best place for camping in Azerbaijan!</p>
+        <p>
+            <a class="btn btn-primary" href="/campgrounds/new"><i class="addloc material-icons">
+                add_location
+                </i> Add new campground</a>
+        </p>        
+    </div>
+    <div class="row text-center" style="display: flex; flex-wrap: wrap;">
+        <% campgrounds.forEach(function(campg){%>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+                
+                <img src="<%=campg.image%>" id="card_cropped">
+                <div class="caption">
+                    <h4><%= campg.name %></h4>
+                </div>
+                <p>
+                    <a href="/campgrounds/<%= campg._id %>" class="btn btn-primary">More Info</a>
+                </p>
+            </div>
+        </div>     
+        <% }) %>
+    </div>
+</div>
+    
+
+<%- include("../partials/footer") %>
